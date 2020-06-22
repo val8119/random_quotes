@@ -1,2 +1,2 @@
-# random_quotes
- 
+# Random Quotes
+Click a button to get a random quote

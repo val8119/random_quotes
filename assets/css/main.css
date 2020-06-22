@@ -2,14 +2,63 @@ html {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    height: 98%;
-    font-family: 'Open Sans', sans-serif;
-    background-color: linear;
+    height: 100%;
+    font-family: 'Poppins', sans-serif
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(135deg, #f37454 0%, #e7ac53 100%);
+}
+
+.quote-body-container {
+    width: 350px;
+    height: 210px;
+    background-color: rgba(0, 255, 0, 0.527);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#quote-body {
+    background-color: rgba(255, 0, 0, 0.459);
+}
+
+#quote-author {
+    font-size: 25px;
+    margin-top: -10px;
+}
+
+#generate-quote {
+    border-radius: 20px;
+    margin-top: 40px;
+    width: 120px;
+    height: 40px;
+    border-width: 1px;
+    border-color: transparent;
+    color: #ffffff;
+    background-color: #f37454;
+}
+
+#generate-quote:hover {
+    cursor: pointer;
+    background-color: #bd5940;
+}
+
+#generate-quote:active {
+    position: relative;
+    top: 1px;
+}
+
+#generate-quote:focus {
+    outline: none;
 }
 
 .quote-container {
+    text-align: center;
     margin: 10vh auto auto auto;
-    width: 500px;
-    height: 500px;
-    background-color: red;
+    width: 400px;
+    height: 400px;
+    background-color: #f0ffff;
+    border-radius: 200px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.40);
 }

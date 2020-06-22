@@ -1,0 +1,15 @@
+html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 98%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: linear;
+}
+
+.quote-container {
+    margin: 10vh auto auto auto;
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}

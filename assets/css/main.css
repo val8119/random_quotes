@@ -7,41 +7,44 @@ html {
 }
 
 body {
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
     height: 100%;
     background: linear-gradient(135deg, #f37454 0%, #e7ac53 100%);
 }
 
 .quote-body-container {
+    margin: auto;
+    margin-top: 15px;
     width: 350px;
     height: 210px;
-    background-color: rgba(0, 255, 0, 0.527);
-    display: inline-block;
-    vertical-align: middle;
-}
-
-#quote-body {
-    background-color: rgba(255, 0, 0, 0.459);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #quote-author {
-    font-size: 25px;
     margin-top: -10px;
+    font-size: 25px;
 }
 
 #generate-quote {
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.4);
     border-radius: 20px;
-    margin-top: 40px;
+    margin: 35px auto 0px auto;
     width: 120px;
     height: 40px;
     border-width: 1px;
     border-color: transparent;
     color: #ffffff;
     background-color: #f37454;
+    transition: 0.3s;
 }
 
 #generate-quote:hover {
+    box-shadow: 0px 0px 10px 0px #f57b43;
     cursor: pointer;
-    background-color: #bd5940;
+    background-color: #e28357;
 }
 
 #generate-quote:active {
@@ -60,5 +63,5 @@ body {
     height: 400px;
     background-color: #f0ffff;
     border-radius: 200px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.40);
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.4);
 }
